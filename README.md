@@ -7,3 +7,9 @@
 ## npm
 `npm ERR! Maximum call stack size exceeded`とかエラーが出たら、
 あなたの環境がプロキシ環境下ではないか？など疑ってみましょう。
+
+## Android Studio
+PATHの設定が必要です。
+`ANDROID_HOME`という名前が重要  
+例：
+ANDROID_HOME"C:\Users\[ユーザ]\AppData\Local\Android\Sdk"
