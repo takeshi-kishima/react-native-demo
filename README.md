@@ -17,22 +17,23 @@ PATHの設定が必要です。
 
 ## npm run android の時
 1. `Failed to install the following Android SDK packages as some licences have not been accepted.`と怒られた。  
-android-sdkのライセンスに同意する必要があります。
-    
-    cd ~/Library/Android/sdk/tools/bin
-    ./sdkmanager --licenses
-    
+android-sdkのライセンスに同意する必要があります。  
+
+```
+cd ~/Library/Android/sdk/tools/bin
+./sdkmanager --licenses
+``` 
 
 ---
 # iosのメモ
 react-native run-iosしたところ、次のエラーが。  
-    
-    $ react-native run-ios
-    error Could not find "Podfile.lock" at /xxx/yyy/ios/Podfile.lock. Did you run "pod install" in iOS directory?
-    
+```
+$ react-native run-ios
+error Could not find "Podfile.lock" at /xxx/yyy/ios/Podfile.lock. Did you run "pod install" in iOS directory?
+```
 iosディレクトリにcdして、pod installしましたが、podコマンドがないとのこと。  
-    
-    $ cd ios
-    $ pod install
-    -bash: pod: command not found
-    
+```
+$ cd ios
+$ pod install
+-bash: pod: command not found
+```
