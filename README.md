@@ -37,3 +37,7 @@ $ cd ios
 $ pod install
 -bash: pod: command not found
 ```
+cocoapodをインストールします。  
+```
+$ sudo gem install -n /usr/local/bin cocoapods
+```
