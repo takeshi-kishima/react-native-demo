@@ -41,3 +41,43 @@ cocoapodをインストールします。
 ```
 $ sudo gem install -n /usr/local/bin cocoapods
 ```
+
+### react-native link react-native-vector-icons
+データピッカー「react-native-modal-datetime-picker」を使用しているが、「react-native-vector-icons」に依存している。  
+エラーになる時は… 
+```
+react-native unlink react-native-vector-icons
+```
+リンクを外し、  
+ios/[project].xcworkspaceを選択してXcodeを実行します。  
+Fontsの名前でグループを生成します。  
+Fontsグループを生成したら、上のようにnode_modules/react-native-vector-icons/Fonts/で移動して下にある全てのフォントをXcodeのFontsグループにドラックします。  
+(なんか画面が出たら、Copy items if neededがチェックされた状態で右下のFinishボタンを選択します。)  
+↑(要は、フォントファイルをコピーすればいいのではないか)  
+最後にios/[project]/Info.plistファイルを開いて下記の内容を追加します。  
+```
+～～～～
+  <key>UIAppFonts</key>
+  <array>
+    <string>AntDesign.ttf</string>
+    <string>Entypo.ttf</string>
+    <string>EvilIcons.ttf</string>
+    <string>Feather.ttf</string>
+    <string>FontAwesome.ttf</string>
+    <string>FontAwesome5_Brands.ttf</string>
+    <string>FontAwesome5_Regular.ttf</string>
+    <string>FontAwesome5_Solid.ttf</string>
+    <string>Foundation.ttf</string>
+    <string>Ionicons.ttf</string>
+    <string>MaterialCommunityIcons.ttf</string>
+    <string>MaterialIcons.ttf</string>
+    <string>Octicons.ttf</string>
+    <string>SimpleLineIcons.ttf</string>
+    <string>Zocial.ttf</string>
+    <string>Fontisto.ttf</string>
+  </array>
+  ※arrayが増えるような修正  
+～～～～
+```
+Xcodeでcmd + shift + kを押してClean Build Folderを実行します。  
+※ターミナルで`npm run ios`でもいいかも…
