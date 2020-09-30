@@ -54,7 +54,7 @@ $ sudo gem install -n /usr/local/bin cocoapods
 ```
 ./node_modules/.bin/react-native unlink react-native-vector-icons
 ```
-リンクを外し、  
+上記コマンドにてリンクを外し、  
 ios/[project].xcworkspaceを選択してXcodeを実行します。  
 Fontsの名前でグループを生成します。  
 Fontsグループを生成したら、上のようにnode_modules/react-native-vector-icons/Fonts/で移動して下にある全てのフォントをXcodeのFontsグループにドラックします。  
