@@ -11,5 +11,5 @@
 ## Android Studio
 PATHの設定が必要です。
 `ANDROID_HOME`という名前が重要  
-例：
-ANDROID_HOME"C:\Users\[ユーザ]\AppData\Local\Android\Sdk"
+例：  
+**ANDROID_HOME"C:\Users\[ユーザ]\AppData\Local\Android\Sdk"**
