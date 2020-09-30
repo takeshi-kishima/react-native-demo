@@ -7,7 +7,7 @@
 ## 前提環境
 1. Android(Windows)  
 Git, NodeJs, Android Studio
-1. ios  
+1. ios(Mac)  
 Git, homebrew, nodebrew, NodeJs, Xcode
 
 ## npm
