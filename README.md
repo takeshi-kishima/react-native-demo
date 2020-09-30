@@ -17,11 +17,12 @@ PATHの設定が必要です。
 
 ## npm run android の時
 1. `Failed to install the following Android SDK packages as some licences have not been accepted.`と怒られた。  
-android-sdkのライセンスに同意する必要があります。  
+android-sdkのライセンスに同意する必要があります。
     
     cd ~/Library/Android/sdk/tools/bin
     ./sdkmanager --licenses
     
+
 ---
 # iosのメモ
 react-native run-iosしたところ、次のエラーが。  
