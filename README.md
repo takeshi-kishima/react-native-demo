@@ -10,7 +10,7 @@
 
 ## Android Studio
 PATHの設定が必要です。
-1. `ANDROID_HOME`という名前が重要  
+1. `ANDROID_HOME`という名前で追加。※名前が重要  
 例：**ANDROID_HOME="C:\Users\[ユーザ]\AppData\Local\Android\Sdk"**
 1. `$ANDROID_HOME/platform-tools`も追加  
 ※adb コマンドを必要とします。
