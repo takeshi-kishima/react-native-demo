@@ -46,7 +46,7 @@ $ sudo gem install -n /usr/local/bin cocoapods
 データピッカー「react-native-modal-datetime-picker」を使用しているが、「react-native-vector-icons」に依存している。  
 エラーになる時は… 
 ```
-react-native unlink react-native-vector-icons
+./node_modules/.bin/react-native unlink react-native-vector-icons
 ```
 リンクを外し、  
 ios/[project].xcworkspaceを選択してXcodeを実行します。  
