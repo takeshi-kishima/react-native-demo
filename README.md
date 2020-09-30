@@ -4,6 +4,12 @@
 クローンしたのち、  `npm install`  して、  `npm run android`  すれば、起動します。  
 ※アンドロイド実機がUSBにつながっているか、Android Studioがあるかでなにが立ち上がるか変わります
 
+## 前提環境
+1. Android(Windows)  
+Git, NodeJs, Android Studio
+1. ios  
+Git, homebrew, nodebrew, NodeJs, Xcode
+
 ## npm
 `npm ERR! Maximum call stack size exceeded`とかエラーが出たら、
 あなたの環境がプロキシ環境下ではないか？など疑ってみましょう。
