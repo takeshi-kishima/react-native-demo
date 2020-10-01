@@ -22,7 +22,7 @@ PATHの設定が必要です。
 ※adb コマンドを必要とします。
 
 ## npm run android の時
-- gradle.propertiesへの設定  
+- gradle.propertiesへの設定(必要な人のみ)  
     プロキシ環境下の場合、注意が必要です。  
     **C:\Users\\[ユーザ]/.gradle/gradle.properties**（なければ作成する）に以下のように設定します。
     ```
