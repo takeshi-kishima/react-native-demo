@@ -23,26 +23,26 @@ PATHの設定が必要です。
 
 ## npm run android の時
 - gradle.propertiesへの設定  
-プロキシ環境下の場合、注意が必要です。  
-**C:\Users\\[ユーザ]/.gradle/gradle.properties**（なければ作成する）に以下のように設定します。
-```
-systemProp.http.proxyHost=myproxy.co.jp
-systemProp.http.proxyPort=8080
-systemProp.http.proxyUser=****
-systemProp.http.proxyPassword=****
-systemProp.https.proxyHost=myproxy.co.jp
-systemProp.https.proxyPort=8080
-systemProp.https.proxyUser=****
-systemProp.https.proxyPassword=****
-```
-実行時にいろいろアクセスするようです。
+    プロキシ環境下の場合、注意が必要です。  
+    **C:\Users\\[ユーザ]/.gradle/gradle.properties**（なければ作成する）に以下のように設定します。
+    ```
+    systemProp.http.proxyHost=myproxy.co.jp
+    systemProp.http.proxyPort=8080
+    systemProp.http.proxyUser=****
+    systemProp.http.proxyPassword=****
+    systemProp.https.proxyHost=myproxy.co.jp
+    systemProp.https.proxyPort=8080
+    systemProp.https.proxyUser=****
+    systemProp.https.proxyPassword=****
+    ```
+    実行時にいろいろアクセスするようです。
 
 - `Failed to install the following Android SDK packages as some licences have not been accepted.`と怒られた。  
-android-sdkのライセンスに同意する必要があります。
-```
-cd ~/Library/Android/sdk/tools/bin
-./sdkmanager --licenses
-``` 
+    android-sdkのライセンスに同意する必要があります。
+    ```
+    cd ~/Library/Android/sdk/tools/bin
+    ./sdkmanager --licenses
+    ``` 
 
 ---
 # iosのメモ
