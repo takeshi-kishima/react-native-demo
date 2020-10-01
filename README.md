@@ -6,7 +6,7 @@
 
 ## 前提環境
 - Android(Windows)  
-Git, NodeJs, Android Studio
+Git, NodeJs, Android Studio, Java
 - ios(Mac)  
 Git, homebrew, nodebrew, NodeJs, Xcode
 
