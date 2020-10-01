@@ -5,9 +5,9 @@
 ※アンドロイド実機がUSBにつながっているか、Android Studioがあるかでなにが立ち上がるか変わります
 
 ## 前提環境
-1. Android(Windows)  
+- Android(Windows)  
 Git, NodeJs, Android Studio
-1. ios(Mac)  
+- ios(Mac)  
 Git, homebrew, nodebrew, NodeJs, Xcode
 
 ## npm
